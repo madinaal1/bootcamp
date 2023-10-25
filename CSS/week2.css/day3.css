@@ -1,0 +1,15 @@
+
+.transition{
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+    transition: margin-left 2s, background-color 0s;
+}
+
+
+
+.transition:hover{
+    /*width: 400px*/
+    background-color:yellow 
+    margin-left: 100px;
+}
