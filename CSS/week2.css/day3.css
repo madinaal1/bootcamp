@@ -2,14 +2,46 @@
 .transition{
     background-color: pink;
     width: 150px;
-    height: 100px;
-    transition: margin-left 2s, background-color 0s;
+    height: 150px;
+    transition: width 2s, background-color 0s;
 }
 
 
 
 .transition:hover{
-    /*width: 400px*/
-    background-color:yellow 
-    margin-left: 100px;
+    width: 400px;
+    background-color:brown;
+    
+}
+
+.animation{
+background-color: plum;
+width: 150px;
+height: 150px;
+animation-name: move;
+animation-duration: 3s;
+
+
+}
+@keyframes move {
+    25% {
+        margin-left: 200px;
+        margin-top: 0px;
+
+}
+    50%{
+        margin-left: 200px;
+        margin-top: 200px;
+}
+}
+.transform {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+transition: transform 1s;
+}
+
+.transform:hover{ 
+    transform: rotate(360deg);
 }
